@@ -1,0 +1,408 @@
+@font-face {
+    font-family: myFont;
+    src: url(./assets/hnlt.ttf);
+}
+
+body{    
+    font-family:myFont;    
+    margin:0;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 160px;
+}
+
+nav{
+    height: 80%;
+    margin-right: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    height: 75%;
+    margin-left: 251px;
+}
+
+.center-nav{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    list-style: none;
+    margin-right: 289px;
+}
+
+.lower-nav{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    list-style: none;
+    margin-right:369px;
+}
+
+.center-list{
+    font-size: 16px;
+    margin:15px;
+}
+
+.lower-list{
+    font-size: 16px;
+    margin-left:  15px;
+    margin-right:  15px;
+    margin-bottom: 0;
+}
+
+.left{
+    height: 488px;
+    width: 593px;
+    margin-left: 361px;
+    margin-top:181px;
+    position: relative;
+}
+
+.backToHome{
+    position: absolute;
+    top: 24px;;
+    font-size: 16px;
+    color: #3DC0F1;
+    margin-top: 24px;
+    width: 123px;
+    line-height: 21px;
+    height: 18px;
+    justify-self: baseline;
+}
+
+.nurseImg{
+    width: 217px;
+    height: 308px;
+    margin-left:191;
+    position: absolute;
+    top: 0;
+}
+
+.lower-box{
+    background-color: #F3FBF3;
+    height: 208px;
+    width: 593;
+    position: absolute;
+    top: 280px;
+}
+
+.circle{
+    margin-left: 107.67;
+    position: absolute;
+    top: 101.36;
+}
+
+.tickMark{
+    height: 64.1px;
+    width: 64.1px;
+    position: absolute;
+    top: 242.85;
+    left:264.63;
+    background-color:#F3FBF3;
+    border: solid #4BB543 4px;
+    border-radius: 100%;
+}
+
+.tickMark img{
+    position: absolute;
+    left: 19.53px;
+    top: 22.72px;
+    width: 25.12px;
+}
+
+.lower-box h3{
+    margin-top: 35px;
+    margin-bottom: 0;
+    margin-right: 0.63px;
+    font-size: 28px;
+    text-align: center;
+    color: #4BB543;
+}
+
+.para{
+    width: 514.36px;
+    font-size: 17px;
+    text-align: center;
+    color: #959494;
+    margin-top: 4px;
+    margin-left: 39px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    width: 552px;
+    float: right;
+    position: absolute;
+    top: 186;
+    left:981.81;
+}
+
+.dp{
+    width: 75px;
+    height: 74px;
+    border-radius: 100%;
+}
+
+.name{
+    margin-top: 0%;
+    margin-bottom: 0;
+    margin-left: 18px;
+    height: 20px;
+    font-size: 17px;
+    color: #00ACED;
+}
+
+.info{
+    margin-left: 18px;
+    margin-top: 7px;
+    height: 17px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color:#2C2F36;
+}
+
+.mode{
+    margin-left: 18px;
+    margin-top: 4px;
+    height: 17px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color:#15080C;
+}
+
+.block{
+    height: 64px;
+    width: 548px;
+    background-color: #00ACED;
+    margin-top: 23.53px;
+}
+
+.block p{
+    font-size: 19px;
+    color: #FFFFFF;
+    position: relative;
+    top:17.24px;
+    left:36px;
+}
+
+.booking-info-container{
+    height: 665px;
+    background-color: #F3FBF3;
+    margin-top: 13px;
+    position: relative;
+}
+
+.booking-info{
+    color: #707070;
+    position: absolute;
+    font-size: 15;
+    margin: 0;
+    top:18.71;
+    left:71;
+}
+
+.booking-id{
+    color: #707070;
+    position: absolute;
+    font-size: 15;
+    margin: 0;
+    top:18.6;
+    left:339.2;
+}
+
+.booking-time{
+    color: #707070;
+    position: absolute;
+    font-size: 15;
+    margin: 0;
+    top:39.09;
+    left:71;
+}
+
+.booking-info-detail{
+    position: absolute;
+    font-size: 15;
+    margin: 0;
+    top:16.88;
+    left:164.52;
+    color: #0C4A97;
+}
+.booking-id-detail{
+    position: absolute;
+    font-size: 15;
+    margin: 0;
+    top:20.31;
+    left:433.55;
+    color: #0C4A97;
+}
+.booking-time-detail{
+    position: absolute;
+    font-size: 15;
+    margin: 0;
+    top:39.09;
+    left:164.52;
+    color: #0C4A97;
+}
+
+.session{
+    position:absolute;
+    left: 76px;
+    top: 85px;
+}
+
+.session-title{
+    font-size: 17px;
+    margin: 0;
+    color: #0C4A97;
+}
+
+.session-box{
+    height: 100px;
+    width: 416px;
+    margin-top: 13.47;
+    background-color: #FFFFFF;
+}
+
+.s1{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 18px;
+    color: #212121;
+    font-size: 16px;
+}
+.s2{
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 18px;
+    color: #212121;
+    font-size: 16px;
+}
+.s3{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 211px;
+    color: #212121;
+    font-size: 16px;
+}
+.s4{
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 211px;
+    color: #212121;
+    font-size: 16px;
+}
+
+.payment{
+    position:absolute;
+    left: 76px;
+    top: 209.48px;
+}
+
+.payment-title{
+    font-size: 17px;
+    margin-bottom: 0;
+    color: #0C4A97;
+    padding-top: 0;
+}
+
+.payment-box{
+    height: 241px;
+    width: 416px;
+    margin-top: 14.76;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.payment-box p{
+    margin-left: 30.93px;
+    font-size: 15px;
+}
+
+.p1{
+    position: absolute;
+    color: #707070;
+}
+
+.p2{
+    position: absolute;
+    top: 30.01px;
+    color: #707070;
+}
+
+.p3{
+    position: absolute;
+    top: 60.02px;
+    color: #0C4A97;
+}
+
+.p4{
+    position: absolute;
+    top: 103.75px;
+    color: #707070;
+}
+
+.p5{
+    position: absolute;
+    top: 133.76px;
+    color: #707070;
+}
+
+.p6{
+    position: absolute;
+    top: 163.77px;
+    color: #707070;
+}
+
+.p7{
+    position: absolute;
+    font-size: 12px;
+    top: 185.18;
+    color: #00ACED;
+    left:266.11px;
+}
+
+.help-box{
+    width: 422px;
+    height: 108px;
+    background-color: #000000;
+    position: absolute;
+    top: 337.63px;
+    opacity: 50%;
+}
+
+.help-box p{
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.h1{
+    position: absolute;
+    font-size: 18px;
+    top: 26.75px;
+    left:65.28;
+}
+
+.h2{
+    position: absolute;
+    top: 49.64px;
+    left: 65.28px;
+    font-size: 13px;
+    width: 117.48px;
+}
+
+.h3{
+    position: absolute;
+    font-size: 18px;
+    top: 26.75px;
+    left:296.6px;
+}
+span{
+    color: #2680EB;
+}
